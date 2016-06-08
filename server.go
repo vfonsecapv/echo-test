@@ -72,5 +72,5 @@ func main() {
 	e.DELETE("/users/:id", deleteUser)
 
 	// Start server
-	e.Run(standard.New(":1323"))
+	e.Run(standard.New(":8080"))
 }
