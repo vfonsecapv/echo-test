@@ -1,0 +1,7 @@
+---
+applications:
+- name: echo
+  memory: 128M
+  disk_quota: 200M
+  instances: 1
+  buildpack: go_buildpack
